@@ -14,8 +14,13 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('citas.create') }}">Crear Cita</a>
+                        <a class="nav-link" href="{{ route('citas.index') }}">Citas</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('pacientes.index') }}">Pacientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('tratamientos.index') }}">Tratamientos</a>
                     </li>
                 </ul>
             </div>
